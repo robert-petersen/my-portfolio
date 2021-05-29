@@ -1,0 +1,60 @@
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./../../Assets/tim-mossholder-07uiqD9LS6U-unsplash.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.header {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+P {
+  font-size: 2.4rem;
+}
+
+.header-item {
+  margin-bottom: 3vh;
+}
+
+button {
+  background-color: white;
+  color: black;
+  box-shadow: 0 3px 12px 0 black;
+  border: none;
+  padding: 8px 10px;
+  font-size: 14px;
+  transition-duration: 0.3s;
+}
+
+.button-arrow {
+  font-size: 18px;
+  padding-left: 10px;
+  display: inline;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 0 0px 0px 0 black;
+}
+
