@@ -38,10 +38,11 @@ h2, p {
 }
 
 button {
-  background-color: #3d860b;
-  color: white;
+  background-color: skyblue;
+  color: #262626;
   box-shadow: 0 3px 12px 0 black;
-  border: 1px solid white;
+  border: 2px solid #262626;
+  border-radius: 150px;
   padding: 8px 10px;
   font-size: 14px;
   transition-duration: 0.3s;
@@ -54,9 +55,9 @@ button {
 }
 
 button:hover{
-  background-color: white;
-  color: #3d860b;
-  border: 1px solid #3d860b;
+  background-color: #262626;
+  color: skyblue;
+  border: 2px solid skyblue;
   box-shadow: 0 0px 0px 0 black;
 }
 

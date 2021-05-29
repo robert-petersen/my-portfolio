@@ -5,11 +5,11 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <div className="navigation-container">
-      <a href="landing-section">Robert Petersen</a>
+      <a className="nav-link name-link" href="/">Robert Petersen</a>
       <div className="nav-links">
-        <a href="about-section">About</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+        <a className="nav-link" href="about">About</a>
+        <a className="nav-link" href="projects">Projects</a>
+        <a className="nav-link" href="contact">Contact</a>
       </div>
     </div>
   );
