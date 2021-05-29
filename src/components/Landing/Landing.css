@@ -1,9 +1,9 @@
 .landing-container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-image: url("./../../Assets/tim-mossholder-07uiqD9LS6U-unsplash.jpg");
+  background-image: url("./../../Assets/timothy-meinberg-phx4UXMQRTg-unsplash.jpg");
   background-size: 100% 100%;
-  background-attachment: fixed;
+  background-position: center;
   display: flex;
   justify-content: center;
   color: white;
@@ -11,17 +11,14 @@
 }
 
 .header {
-  width: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-h1 {
-  font-size: 4.5rem;
 }
 
 h2 {
@@ -32,15 +29,19 @@ P {
   font-size: 2.4rem;
 }
 
+h2, p {
+  width: 50%;
+}
+
 .header-item {
   margin-bottom: 3vh;
 }
 
 button {
-  background-color: white;
-  color: black;
+  background-color: #3d860b;
+  color: white;
   box-shadow: 0 3px 12px 0 black;
-  border: none;
+  border: 1px solid white;
   padding: 8px 10px;
   font-size: 14px;
   transition-duration: 0.3s;
@@ -53,8 +54,9 @@ button {
 }
 
 button:hover{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #3d860b;
+  border: 1px solid #3d860b;
   box-shadow: 0 0px 0px 0 black;
 }
 
