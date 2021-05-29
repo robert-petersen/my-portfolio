@@ -12,7 +12,7 @@ function Landing() {
           href="about"
         >
           Learn More 
-          <div className="button-arrow">&#8250;</div>
+          {/* <div className="button-arrow">&#8250;</div> */}
         </button>
       </header>
     </div>
