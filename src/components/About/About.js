@@ -5,10 +5,11 @@ import Robert from "../../Assets/20201020_130629.jpg";
 
 function About() {
   return (
+    <div className="about-section">
       <div className="about-container" id="about">
-        <div className="about-title-container">
+        {/* <div className="about-title-container">
           <h1>About</h1>
-        </div>
+        </div> */}
         <div className="about-me-container" >
           <div className="picture-container">
             <img className="my-photo" src={Robert} alt="Robert Petersen" />
@@ -62,6 +63,7 @@ function About() {
           </div>
         </div>
       </div>
+    </div>
   );
 }
 
