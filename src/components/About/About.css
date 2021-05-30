@@ -1,5 +1,6 @@
 .about-section {
-  background-image: url("../../Assets//memphis-mini-dark.png");
+  /* background-image: url("../../Assets//memphis-mini-dark.png"); */
+  background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,24 +11,24 @@
   background-color: #1c1c1c;
   color: white;
   width:80%;
+  margin-top: 12vh;
+  margin-bottom: 24vh;
+}
+
+.about-container-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
 }
 
 .about-container h1 {
   font-size: 4rem;
   font-weight: bold;
-}
-
-.about-title-container {
-  width: 30%;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8vh;
   border-bottom: 7px solid skyblue;
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 5vh;
 }
 
 .about-me-container {
