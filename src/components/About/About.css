@@ -1,30 +1,31 @@
-.about-section {
+/* .about-section {
   background-image: url("../../Assets//memphis-mini-dark.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .about-container {
-  background-color: #262626;
+  background-color: #1c1c1c;
   color: white;
-  width:75%;
-  margin-top: 10vh;
+  width:100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-section h1 {
+.about-container h1 {
   font-size: 4rem;
+  font-weight: bold;
 }
 
 .about-title-container {
   width: 30%;
-  border-bottom: 3px solid skyblue;
+  border-bottom: 7px solid skyblue;
   text-align: center;
+  padding-bottom: 10px;
   margin: 5vh;
 }
 
@@ -37,32 +38,66 @@
 }
 
 .picture-container {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .about-me {
-  width: 50%;
+  width: 60%;
   margin: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.about-section h3 {
-  font-size: 2rem;
-  text-align: center;
-  padding-bottom: 1vh;
+.about-container h3 {
   width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1vh;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+  margin-bottom: 2vh;
 }
 
-.about-section p {
+.about-container p {
   font-size: 1.2rem;
   width: 100%;
+  line-height: 30px;
+  margin-bottom: 8vh;
 }
 
 .my-photo {
   width:20vw;
+  border-radius: 100px;
+}
+
+.skill-logo {
+  width: 75px;
+  height: 75px;
+  margin: 30px;
+}
+
+.about-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-skills h4 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.library-container {
+  display: flex;
+  flex-direction: row;
 }
