@@ -1,3 +1,4 @@
+import React from "react";
 import "./Landing.css";
 
 function Landing() {
@@ -9,7 +10,7 @@ function Landing() {
         <p className="header-item" >I'm a full-stack web developer who loves creating web applications that people enjoy.</p>
         <button 
           className="header-item"
-          href="about"
+          onClick="window.location.href='/about'"
         >
           Learn More 
           {/* <div className="button-arrow">&#8250;</div> */}
